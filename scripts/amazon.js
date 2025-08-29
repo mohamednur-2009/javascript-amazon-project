@@ -1,6 +1,9 @@
 import {cart} from "../data/cart.js";
+import { products } from "../data/products.js";
 // takes it from cart.js (export) to amazon.js 
 // (import { fileName } from "../'folder'/'file'.js";)
+
+
 let productHTML = '';
 
 products.forEach((product) => {
